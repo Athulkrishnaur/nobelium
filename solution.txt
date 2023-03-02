@@ -1,0 +1,5 @@
+Both git stash apply and git stash pop are used to apply changes from a stash to the current working tree. However, there is a difference between the two commands:
+
+git stash apply: This command applies the changes from the most recent stash to the current working tree, but it does not remove the stash from the stash list. This means that you can apply the same stash multiple times using this command.
+
+git stash pop: This command applies the changes from the most recent stash to the current working tree, and it also removes the stash from the stash list. This means that you can only apply a stash once using this command.
