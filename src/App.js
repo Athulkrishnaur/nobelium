@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React  from 'react'
+
+  import {Heading1}  from './COMPONENTS/heading1';
+  import { Heading2 } from "./COMPONENTS/heading2";
+  import { Heading3 } from "./COMPONENTS/heading3";
+ import { Click } from "./COMPONENTS/clickbutton";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+     <div  className='App'>
+      {/* <h1>I AM HEADING ONE......FROM FRIST COMPONENT</h1> 
+    <h2>I AM HEADING TWO......FROM TWO COMPONENT</h2>
+    <h3>I AM HEADING THREE......FROM THREE COMPONENT</h3>
+    <button>click me</button>    */}
+     <Heading1 />
+    <Heading2 />
+    <Heading3 />
+    <Click />  c
     </div>
+    </>
   );
 }
 
