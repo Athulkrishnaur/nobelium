@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+import Input from './components/Data';
+import Heading from './components/Heading';
+import Sumbit from './components/sumbit';
+
+
+ function App() {
+   return (
+//     <div>
+//       <h1>REGISTER HERE....</h1>
+      
+//       <br/>
+//         <br/><form>
+//       <label for="uname"></label>
+//         <input type="text" placeholder="Mobile" name="uname" required/>
+        
+//         <br/>
+//         <br/>
+//         <label for="psw"></label>
+//         <input type="password" placeholder="Password" name="psw" required/>
+//       </form>
+//         <button> SUBMIT</button>
+      
+//     </div>
+    <>
+     <Heading Heading = "REGISTER HERE..." />
+  <Input/>
+  <Sumbit sumbit = "SUBMIT......"/>
+     </>
+  
+  
+
+ 
+    );
 }
 
 export default App;
